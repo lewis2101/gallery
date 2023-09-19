@@ -7,7 +7,6 @@ const ENDPOINT = {
 
 const accessToken = import.meta.env.VITE_ACCESS_TOKEN
 const http = () => {
-    console.log(import.meta.env.VITE_BASE_URL)
     return axios.create({
         baseURL: import.meta.env.VITE_BASE_URL
     })
