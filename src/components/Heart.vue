@@ -1,5 +1,5 @@
 <template>
-  <svg v-if="show" width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg v-if="props.show" width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="Group 4">
       <g id="Group 2">
         <g id="Rectangle 3.1" filter="url(#filter0_d_11_271)">

@@ -6,9 +6,9 @@
 </template>
 
 <script setup lang="ts">
-import {imageI} from "../utils/types.ts";
+import {imageI} from "../utils/types";
 import Loader from "./loader.vue";
-import router from "../router/router.ts";
+import router from "../router/router";
 
 const props = withDefaults(defineProps<{
     images: imageI[] | null

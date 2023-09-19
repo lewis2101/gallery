@@ -8,9 +8,9 @@
 
 <script setup lang="ts">
 import Search from "../components/Search.vue";
-import {getRandomPhotos, getSearchPhoto} from "../utils/application.ts";
+import {getRandomPhotos, getSearchPhoto} from "../utils/application";
 import {onMounted, ref} from "vue";
-import {imageI} from "../utils/types.ts";
+import {imageI} from "../utils/types";
 import MainPhotos from "../components/MainPhotos.vue";
 const images = ref<imageI[]>(null)
 

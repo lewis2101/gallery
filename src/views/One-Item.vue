@@ -28,10 +28,10 @@
 
 </style>
 <script setup lang="ts">
-import {computed, onMounted, reactive, ref} from "vue";
+import {onMounted, ref} from "vue";
 import {useRoute} from "vue-router";
-import {getPhoto} from "../utils/application.ts";
-import {imageI} from "../utils/types.ts";
+import {getPhoto} from "../utils/application";
+import {imageI} from "../utils/types";
 import Heart from "../components/Heart.vue";
 
 const route = useRoute()

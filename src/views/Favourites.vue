@@ -9,11 +9,6 @@
 
 <script setup lang="ts">
 import MainPhotos from "../components/MainPhotos.vue";
-import {imageI} from "../utils/types.ts";
-
 const local = JSON.parse(localStorage.getItem('images'))
-
-const images = local as imageI
-
-
+const images = local
 </script>

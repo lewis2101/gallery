@@ -22,7 +22,6 @@ const router: Router = createRouter({
     history: createWebHistory(),
     routes
 })
-
 router.beforeEach((to, from, next) => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
