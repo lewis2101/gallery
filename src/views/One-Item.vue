@@ -60,6 +60,7 @@ const addFavourite = () => {
     const images = []
     images.push(img.value)
     localStorage.setItem('images', JSON.stringify(images))
+    local = images
   }
   refreshHeart()
 }
