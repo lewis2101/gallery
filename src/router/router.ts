@@ -19,7 +19,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router: Router = createRouter({
-    history: createWebHistory(),
+    // history: createWebHistory(),
     routes
 })
 router.beforeEach((to, from, next) => {
